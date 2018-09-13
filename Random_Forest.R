@@ -1,13 +1,11 @@
-# Utkarsh Kulshrestha
-# kuls.utkarsh1205@gmail.com
 # Business Analytics & Business Intelligence
 # Data Mining
 
 ## Building the model using Random Forest
 
 ## importing the data
-RFDF.dev <- read.table("/home/utkarsh/LearnBay/Machine Learning Python/DEV_SAMPLE.csv", sep = ",", header = T)
-RFDF.holdout <- read.table("/home/utkarsh/LearnBay/Machine Learning Python/HOLDOUT_SAMPLE.csv", sep = ",", header = T)
+RFDF.dev <- read.table("/home/shakti/LearnBay/Machine Learning Python/DEV_SAMPLE.csv", sep = ",", header = T)
+RFDF.holdout <- read.table("/home/shakti/LearnBay/Machine Learning Python/HOLDOUT_SAMPLE.csv", sep = ",", header = T)
 c(nrow(RFDF.dev), nrow(RFDF.holdout))
 attach(RFDF.dev)
 #check table
